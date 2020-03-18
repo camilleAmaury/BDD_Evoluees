@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/camilleAmaury/BDD_Evoluees">
-    <img src="images/logo.svg" alt="Logo">
+    <img src="images/logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Advanced Database Project</h3>
