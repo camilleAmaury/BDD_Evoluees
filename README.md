@@ -16,7 +16,7 @@
   <h3 align="center">Advanced Database Project</h3>
 
   <p align="center">
-    Aniss Bentebib - Camille-Amaury Juge - Aya Haiti - Clément Antheaume
+    Aniss BENTEBIB - Camille-Amaury JUGE - Aya HAITI - Clément ANTHEAUME
   </p>
 </p>
 
