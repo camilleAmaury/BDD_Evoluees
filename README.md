@@ -1,7 +1,6 @@
 <!-- PROJECT SHIELDS -->
 [![LinkedIn AB][linkedin-shield]][linkedin-url-1]
 [![LinkedIn CAJ][linkedin-shield]][linkedin-url-2]
-[![LinkedIn AH][linkedin-shield]][linkedin-url-3]
 [![LinkedIn CA][linkedin-shield]][linkedin-url-4]
 
 
@@ -75,12 +74,12 @@ You should still mention this repository.
 ## Contact
 
 See the linkedIn shields in the top of the README.md
+For our last colleague Aya Haiti : haitiaya@gmail.com.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url-1]: https://www.linkedin.com/in/aniss-bentebib-a449a8155/
 [linkedin-url-2]: https://www.linkedin.com/in/camille-amaury-juge/
-[linkedin-url-3]: https://www.linkedin.com/in/camille-amaury-juge/
 [linkedin-url-4]: https://www.linkedin.com/in/cl%C3%A9ment-antheaume-9266a1171/
 [product-screenshot]: images/mongo.png
