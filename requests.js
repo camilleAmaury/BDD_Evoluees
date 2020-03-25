@@ -92,7 +92,20 @@ req4 = [['Temperature', -0.0, 99.9, [['0, 24']['24, 48']['48, 72']['72, 99.9']],
 */
 
 /* ################################################ Request 5 ################################################ */
-
+use admin;
+var res = db.getCollection("US_Accidents_Dec19").aggregate([{$group: { _id: "$City", countA: { $sum: 1}}},{$sort:{'countA':-1}}]);
+keys = Object.keys(res["_batch"]);
+var resultat = "req2 = [";
+for(var i = 0; i < keys.length; i++){
+    resultat += "['" + res["_batch"][keys[i]]["_id"] + "', ";
+    var res2 = db.getCollection("US_Accidents_Dec19").aggregate([{ $match : { "City" : {$eq : res["_batch"][keys[i]]["_id"]}}}, {$group: { _id: "$Astronomical_Twilight", countA: { $sum: 1}}}]);
+    keys2 = Object.keys(res2["_batch"]);
+    for(var j = 0; j < keys2.length; j++){
+        resultat += "['" + res2["_batch"][keys2[j]]["_id"] + "', " + res2["_batch"][keys2[j]]["countA"] + "]" + ((j != keys2.length - 1) ? ", " : "]");
+    }
+    resultat += "]" + ((i != keys.length - 1) ? ", " : "]");
+}
+print(resultat);
 
 /* ################################################ Request 7 ################################################ */
 var res = db.getCollection("US_Accidents_Dec19").find({}, {"Start_Time":1});
