@@ -151,3 +151,13 @@ for(var i = 0; i < keys.length; i++){
     resultat += "['" + res["_batch"][keys[i]]["_id"] + "', " + res["_batch"][keys[i]]["State"] + "', " + res["_batch"][keys[i]]["Severity"] + "', " + res["_batch"][keys[i]]["Bump"] + "', " + res["_batch"][keys[i]]["Crossing"] + "', " + res["_batch"][keys[i]]["Give_Way"] + "', " + res["_batch"][keys[i]]["Amenity"] + "', " + res["_batch"][keys[i]]["Junction"] + "', " + res["_batch"][keys[i]]["Railway"] + "', " + res["_batch"][keys[i]]["Roundabout"] + "', " + res["_batch"][keys[i]]["Stop"] + "', " + res["_batch"][keys[i]]["Station"] + "]" + "', " + res["_batch"][keys[i]]["Traffic_Calming"] + "', " + res["_batch"][keys[i]]["Traffic_Signal"] + "', " + res["_batch"][keys[i]]["No_Exit"] + ((i != keys.length - 1) ? ", " : "]");
 }
 print(resultat);
+
+
+/* ################################################ Request 10 ################################################ */
+var res = db.US_Accidents_Dec19.aggregate([{$match:{}},{$project: {day:  { $dayOfWeek: { $toDate: "$Start_Time" }}, "State": 1}},{$group: { _id: {"state": "$State", "day": "$day"}, count: {$sum: 1}}},{$sort: {"_id": 1}}]);
+var resultat = "req10 = [";
+keys = Object.keys(res["_batch"]);
+for(var i = 0; i < keys.length; i++){
+    resultat += "['" + res["_batch"][keys[i]]["_id"] + "', " + res["_batch"][keys[i]]["count"] + "]" + ((i != keys.length - 1) ? ", " : "]");
+}
+print(resultat);
