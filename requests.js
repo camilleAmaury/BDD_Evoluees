@@ -140,3 +140,14 @@ print(resultat);
 Results :
 req8 = [['Roundabout', [['True', 117], ['False', 1506883]]], ['Bump', [['True', 264], ['False', 1506736]]], ['Crossing', [['True', 120120], ['False', 1386880]]], ['Give_Way', [['True', 4297], ['False', 1502703]]], ['Junction', [['True', 76147], ['False', 1430853]]], ['No_Exit', [['True', 1758], ['False', 1505242]]], ['Railway', [['True', 13503], ['False', 1493497]]], ['Station', [['True', 32527], ['False', 1474473]]], ['Stop', [['True', 23174], ['False', 1483826]]], ['Traffic_Calming', [['True', 647], ['False', 1506353]]], ['Traffic_Signal', [['True', 295166], ['False', 1211834]]], ['Turning_Loop', [['False', 1507000]]]]
 */
+/* ################################################ Request 9 ################################################ */
+var res = db.getCollection("US_Accidents_Dec19").aggregate([{$match: {$or: [{"Bump": "True"}, {"Amenity": "True"}, {"Junction": "True"}, {"No_Exit": "True"}, {"Traffic_Signal": "True"}, {"Traffic_Calming": "True"}, {"Stop": "True"}, {"Station": "True"}, {"Roundabout": "True"}, {"Railway": "True"}, {"Give_Way": "True"}, {"Crossing": "True"}] }},
+                                                  {$project: {"_id":1, "State": 1, "Severity": 1, "Bump": 1, "Crossing":1, "Give_Way": 1, "Amenity": 1, "Junction": 1, "Railway": 1, "Roundabout": 1, "Stop": 1, "Station": 1, "Traffic_Calming": 1, "Traffic_Signal": 1, "No_Exit": 1 }},
+                                                  {$sort: { "Severity":1}}],
+						  { "allowDiskUse" : true });
+var resultat = "req9 = [";
+keys = Object.keys(res["_batch"]);
+for(var i = 0; i < keys.length; i++){
+    resultat += "['" + res["_batch"][keys[i]]["_id"] + "', " + res["_batch"][keys[i]]["State"] + "', " + res["_batch"][keys[i]]["Severity"] + "', " + res["_batch"][keys[i]]["Bump"] + "', " + res["_batch"][keys[i]]["Crossing"] + "', " + res["_batch"][keys[i]]["Give_Way"] + "', " + res["_batch"][keys[i]]["Amenity"] + "', " + res["_batch"][keys[i]]["Junction"] + "', " + res["_batch"][keys[i]]["Railway"] + "', " + res["_batch"][keys[i]]["Roundabout"] + "', " + res["_batch"][keys[i]]["Stop"] + "', " + res["_batch"][keys[i]]["Station"] + "]" + "', " + res["_batch"][keys[i]]["Traffic_Calming"] + "', " + res["_batch"][keys[i]]["Traffic_Signal"] + "', " + res["_batch"][keys[i]]["No_Exit"] + ((i != keys.length - 1) ? ", " : "]");
+}
+print(resultat);
