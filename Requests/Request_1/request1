@@ -1,0 +1,1 @@
+db.getCollection("US_Accidents_Dec19").aggregate([{$group: { _id: "$State", countA: { $sum: 1}}},{$sort:{'countA':-1}}])
