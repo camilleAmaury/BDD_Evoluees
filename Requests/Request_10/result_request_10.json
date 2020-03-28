@@ -1,0 +1,2401 @@
+{
+	"_id" : {
+		"state" : "AL",
+		"day" : 1
+	},
+	"count" : 1635
+},
+{
+	"_id" : {
+		"state" : "AL",
+		"day" : 2
+	},
+	"count" : 6053
+},
+{
+	"_id" : {
+		"state" : "AL",
+		"day" : 3
+	},
+	"count" : 6132
+},
+{
+	"_id" : {
+		"state" : "AL",
+		"day" : 4
+	},
+	"count" : 6685
+},
+{
+	"_id" : {
+		"state" : "AL",
+		"day" : 5
+	},
+	"count" : 6522
+},
+{
+	"_id" : {
+		"state" : "AL",
+		"day" : 6
+	},
+	"count" : 7295
+},
+{
+	"_id" : {
+		"state" : "AL",
+		"day" : 7
+	},
+	"count" : 2047
+},
+{
+	"_id" : {
+		"state" : "AR",
+		"day" : 1
+	},
+	"count" : 113
+},
+{
+	"_id" : {
+		"state" : "AR",
+		"day" : 2
+	},
+	"count" : 201
+},
+{
+	"_id" : {
+		"state" : "AR",
+		"day" : 3
+	},
+	"count" : 293
+},
+{
+	"_id" : {
+		"state" : "AR",
+		"day" : 4
+	},
+	"count" : 354
+},
+{
+	"_id" : {
+		"state" : "AR",
+		"day" : 5
+	},
+	"count" : 345
+},
+{
+	"_id" : {
+		"state" : "AR",
+		"day" : 6
+	},
+	"count" : 300
+},
+{
+	"_id" : {
+		"state" : "AR",
+		"day" : 7
+	},
+	"count" : 143
+},
+{
+	"_id" : {
+		"state" : "AZ",
+		"day" : 1
+	},
+	"count" : 2414
+},
+{
+	"_id" : {
+		"state" : "AZ",
+		"day" : 2
+	},
+	"count" : 10709
+},
+{
+	"_id" : {
+		"state" : "AZ",
+		"day" : 3
+	},
+	"count" : 11518
+},
+{
+	"_id" : {
+		"state" : "AZ",
+		"day" : 4
+	},
+	"count" : 11460
+},
+{
+	"_id" : {
+		"state" : "AZ",
+		"day" : 5
+	},
+	"count" : 11281
+},
+{
+	"_id" : {
+		"state" : "AZ",
+		"day" : 6
+	},
+	"count" : 12104
+},
+{
+	"_id" : {
+		"state" : "AZ",
+		"day" : 7
+	},
+	"count" : 2844
+},
+{
+	"_id" : {
+		"state" : "CA",
+		"day" : 1
+	},
+	"count" : 51513
+},
+{
+	"_id" : {
+		"state" : "CA",
+		"day" : 2
+	},
+	"count" : 103877
+},
+{
+	"_id" : {
+		"state" : "CA",
+		"day" : 3
+	},
+	"count" : 112116
+},
+{
+	"_id" : {
+		"state" : "CA",
+		"day" : 4
+	},
+	"count" : 113553
+},
+{
+	"_id" : {
+		"state" : "CA",
+		"day" : 5
+	},
+	"count" : 113717
+},
+{
+	"_id" : {
+		"state" : "CA",
+		"day" : 6
+	},
+	"count" : 112618
+},
+{
+	"_id" : {
+		"state" : "CA",
+		"day" : 7
+	},
+	"count" : 55810
+},
+{
+	"_id" : {
+		"state" : "CO",
+		"day" : 1
+	},
+	"count" : 1800
+},
+{
+	"_id" : {
+		"state" : "CO",
+		"day" : 2
+	},
+	"count" : 6732
+},
+{
+	"_id" : {
+		"state" : "CO",
+		"day" : 3
+	},
+	"count" : 7213
+},
+{
+	"_id" : {
+		"state" : "CO",
+		"day" : 4
+	},
+	"count" : 7364
+},
+{
+	"_id" : {
+		"state" : "CO",
+		"day" : 5
+	},
+	"count" : 7358
+},
+{
+	"_id" : {
+		"state" : "CO",
+		"day" : 6
+	},
+	"count" : 7249
+},
+{
+	"_id" : {
+		"state" : "CO",
+		"day" : 7
+	},
+	"count" : 2408
+},
+{
+	"_id" : {
+		"state" : "CT",
+		"day" : 1
+	},
+	"count" : 1147
+},
+{
+	"_id" : {
+		"state" : "CT",
+		"day" : 2
+	},
+	"count" : 3835
+},
+{
+	"_id" : {
+		"state" : "CT",
+		"day" : 3
+	},
+	"count" : 4173
+},
+{
+	"_id" : {
+		"state" : "CT",
+		"day" : 4
+	},
+	"count" : 4081
+},
+{
+	"_id" : {
+		"state" : "CT",
+		"day" : 5
+	},
+	"count" : 4148
+},
+{
+	"_id" : {
+		"state" : "CT",
+		"day" : 6
+	},
+	"count" : 4271
+},
+{
+	"_id" : {
+		"state" : "CT",
+		"day" : 7
+	},
+	"count" : 1148
+},
+{
+	"_id" : {
+		"state" : "DC",
+		"day" : 1
+	},
+	"count" : 106
+},
+{
+	"_id" : {
+		"state" : "DC",
+		"day" : 2
+	},
+	"count" : 652
+},
+{
+	"_id" : {
+		"state" : "DC",
+		"day" : 3
+	},
+	"count" : 779
+},
+{
+	"_id" : {
+		"state" : "DC",
+		"day" : 4
+	},
+	"count" : 777
+},
+{
+	"_id" : {
+		"state" : "DC",
+		"day" : 5
+	},
+	"count" : 712
+},
+{
+	"_id" : {
+		"state" : "DC",
+		"day" : 6
+	},
+	"count" : 553
+},
+{
+	"_id" : {
+		"state" : "DC",
+		"day" : 7
+	},
+	"count" : 74
+},
+{
+	"_id" : {
+		"state" : "DE",
+		"day" : 1
+	},
+	"count" : 162
+},
+{
+	"_id" : {
+		"state" : "DE",
+		"day" : 2
+	},
+	"count" : 911
+},
+{
+	"_id" : {
+		"state" : "DE",
+		"day" : 3
+	},
+	"count" : 823
+},
+{
+	"_id" : {
+		"state" : "DE",
+		"day" : 4
+	},
+	"count" : 795
+},
+{
+	"_id" : {
+		"state" : "DE",
+		"day" : 5
+	},
+	"count" : 736
+},
+{
+	"_id" : {
+		"state" : "DE",
+		"day" : 6
+	},
+	"count" : 859
+},
+{
+	"_id" : {
+		"state" : "DE",
+		"day" : 7
+	},
+	"count" : 148
+},
+{
+	"_id" : {
+		"state" : "FL",
+		"day" : 1
+	},
+	"count" : 9063
+},
+{
+	"_id" : {
+		"state" : "FL",
+		"day" : 2
+	},
+	"count" : 40071
+},
+{
+	"_id" : {
+		"state" : "FL",
+		"day" : 3
+	},
+	"count" : 42438
+},
+{
+	"_id" : {
+		"state" : "FL",
+		"day" : 4
+	},
+	"count" : 41305
+},
+{
+	"_id" : {
+		"state" : "FL",
+		"day" : 5
+	},
+	"count" : 40137
+},
+{
+	"_id" : {
+		"state" : "FL",
+		"day" : 6
+	},
+	"count" : 40316
+},
+{
+	"_id" : {
+		"state" : "FL",
+		"day" : 7
+	},
+	"count" : 10416
+},
+{
+	"_id" : {
+		"state" : "GA",
+		"day" : 1
+	},
+	"count" : 4833
+},
+{
+	"_id" : {
+		"state" : "GA",
+		"day" : 2
+	},
+	"count" : 13577
+},
+{
+	"_id" : {
+		"state" : "GA",
+		"day" : 3
+	},
+	"count" : 15172
+},
+{
+	"_id" : {
+		"state" : "GA",
+		"day" : 4
+	},
+	"count" : 14923
+},
+{
+	"_id" : {
+		"state" : "GA",
+		"day" : 5
+	},
+	"count" : 14443
+},
+{
+	"_id" : {
+		"state" : "GA",
+		"day" : 6
+	},
+	"count" : 14989
+},
+{
+	"_id" : {
+		"state" : "GA",
+		"day" : 7
+	},
+	"count" : 5683
+},
+{
+	"_id" : {
+		"state" : "IA",
+		"day" : 1
+	},
+	"count" : 591
+},
+{
+	"_id" : {
+		"state" : "IA",
+		"day" : 2
+	},
+	"count" : 1917
+},
+{
+	"_id" : {
+		"state" : "IA",
+		"day" : 3
+	},
+	"count" : 1817
+},
+{
+	"_id" : {
+		"state" : "IA",
+		"day" : 4
+	},
+	"count" : 1831
+},
+{
+	"_id" : {
+		"state" : "IA",
+		"day" : 5
+	},
+	"count" : 1722
+},
+{
+	"_id" : {
+		"state" : "IA",
+		"day" : 6
+	},
+	"count" : 1861
+},
+{
+	"_id" : {
+		"state" : "IA",
+		"day" : 7
+	},
+	"count" : 607
+},
+{
+	"_id" : {
+		"state" : "ID",
+		"day" : 1
+	},
+	"count" : 157
+},
+{
+	"_id" : {
+		"state" : "ID",
+		"day" : 2
+	},
+	"count" : 226
+},
+{
+	"_id" : {
+		"state" : "ID",
+		"day" : 3
+	},
+	"count" : 287
+},
+{
+	"_id" : {
+		"state" : "ID",
+		"day" : 4
+	},
+	"count" : 278
+},
+{
+	"_id" : {
+		"state" : "ID",
+		"day" : 5
+	},
+	"count" : 300
+},
+{
+	"_id" : {
+		"state" : "ID",
+		"day" : 6
+	},
+	"count" : 331
+},
+{
+	"_id" : {
+		"state" : "ID",
+		"day" : 7
+	},
+	"count" : 178
+},
+{
+	"_id" : {
+		"state" : "IL",
+		"day" : 1
+	},
+	"count" : 2450
+},
+{
+	"_id" : {
+		"state" : "IL",
+		"day" : 2
+	},
+	"count" : 16262
+},
+{
+	"_id" : {
+		"state" : "IL",
+		"day" : 3
+	},
+	"count" : 17334
+},
+{
+	"_id" : {
+		"state" : "IL",
+		"day" : 4
+	},
+	"count" : 16195
+},
+{
+	"_id" : {
+		"state" : "IL",
+		"day" : 5
+	},
+	"count" : 15489
+},
+{
+	"_id" : {
+		"state" : "IL",
+		"day" : 6
+	},
+	"count" : 15508
+},
+{
+	"_id" : {
+		"state" : "IL",
+		"day" : 7
+	},
+	"count" : 3152
+},
+{
+	"_id" : {
+		"state" : "IN",
+		"day" : 1
+	},
+	"count" : 1055
+},
+{
+	"_id" : {
+		"state" : "IN",
+		"day" : 2
+	},
+	"count" : 5222
+},
+{
+	"_id" : {
+		"state" : "IN",
+		"day" : 3
+	},
+	"count" : 5702
+},
+{
+	"_id" : {
+		"state" : "IN",
+		"day" : 4
+	},
+	"count" : 5634
+},
+{
+	"_id" : {
+		"state" : "IN",
+		"day" : 5
+	},
+	"count" : 5350
+},
+{
+	"_id" : {
+		"state" : "IN",
+		"day" : 6
+	},
+	"count" : 5890
+},
+{
+	"_id" : {
+		"state" : "IN",
+		"day" : 7
+	},
+	"count" : 1187
+},
+{
+	"_id" : {
+		"state" : "KS",
+		"day" : 1
+	},
+	"count" : 359
+},
+{
+	"_id" : {
+		"state" : "KS",
+		"day" : 2
+	},
+	"count" : 1242
+},
+{
+	"_id" : {
+		"state" : "KS",
+		"day" : 3
+	},
+	"count" : 1320
+},
+{
+	"_id" : {
+		"state" : "KS",
+		"day" : 4
+	},
+	"count" : 1295
+},
+{
+	"_id" : {
+		"state" : "KS",
+		"day" : 5
+	},
+	"count" : 1196
+},
+{
+	"_id" : {
+		"state" : "KS",
+		"day" : 6
+	},
+	"count" : 1059
+},
+{
+	"_id" : {
+		"state" : "KS",
+		"day" : 7
+	},
+	"count" : 416
+},
+{
+	"_id" : {
+		"state" : "KY",
+		"day" : 1
+	},
+	"count" : 860
+},
+{
+	"_id" : {
+		"state" : "KY",
+		"day" : 2
+	},
+	"count" : 3354
+},
+{
+	"_id" : {
+		"state" : "KY",
+		"day" : 3
+	},
+	"count" : 3546
+},
+{
+	"_id" : {
+		"state" : "KY",
+		"day" : 4
+	},
+	"count" : 3449
+},
+{
+	"_id" : {
+		"state" : "KY",
+		"day" : 5
+	},
+	"count" : 3446
+},
+{
+	"_id" : {
+		"state" : "KY",
+		"day" : 6
+	},
+	"count" : 3489
+},
+{
+	"_id" : {
+		"state" : "KY",
+		"day" : 7
+	},
+	"count" : 978
+},
+{
+	"_id" : {
+		"state" : "LA",
+		"day" : 1
+	},
+	"count" : 1250
+},
+{
+	"_id" : {
+		"state" : "LA",
+		"day" : 2
+	},
+	"count" : 9400
+},
+{
+	"_id" : {
+		"state" : "LA",
+		"day" : 3
+	},
+	"count" : 9983
+},
+{
+	"_id" : {
+		"state" : "LA",
+		"day" : 4
+	},
+	"count" : 10139
+},
+{
+	"_id" : {
+		"state" : "LA",
+		"day" : 5
+	},
+	"count" : 9812
+},
+{
+	"_id" : {
+		"state" : "LA",
+		"day" : 6
+	},
+	"count" : 10493
+},
+{
+	"_id" : {
+		"state" : "LA",
+		"day" : 7
+	},
+	"count" : 1404
+},
+{
+	"_id" : {
+		"state" : "MA",
+		"day" : 1
+	},
+	"count" : 525
+},
+{
+	"_id" : {
+		"state" : "MA",
+		"day" : 2
+	},
+	"count" : 5831
+},
+{
+	"_id" : {
+		"state" : "MA",
+		"day" : 3
+	},
+	"count" : 6860
+},
+{
+	"_id" : {
+		"state" : "MA",
+		"day" : 4
+	},
+	"count" : 6822
+},
+{
+	"_id" : {
+		"state" : "MA",
+		"day" : 5
+	},
+	"count" : 6474
+},
+{
+	"_id" : {
+		"state" : "MA",
+		"day" : 6
+	},
+	"count" : 5973
+},
+{
+	"_id" : {
+		"state" : "MA",
+		"day" : 7
+	},
+	"count" : 529
+},
+{
+	"_id" : {
+		"state" : "MD",
+		"day" : 1
+	},
+	"count" : 2420
+},
+{
+	"_id" : {
+		"state" : "MD",
+		"day" : 2
+	},
+	"count" : 7296
+},
+{
+	"_id" : {
+		"state" : "MD",
+		"day" : 3
+	},
+	"count" : 8161
+},
+{
+	"_id" : {
+		"state" : "MD",
+		"day" : 4
+	},
+	"count" : 8001
+},
+{
+	"_id" : {
+		"state" : "MD",
+		"day" : 5
+	},
+	"count" : 7485
+},
+{
+	"_id" : {
+		"state" : "MD",
+		"day" : 6
+	},
+	"count" : 7470
+},
+{
+	"_id" : {
+		"state" : "MD",
+		"day" : 7
+	},
+	"count" : 2495
+},
+{
+	"_id" : {
+		"state" : "ME",
+		"day" : 1
+	},
+	"count" : 190
+},
+{
+	"_id" : {
+		"state" : "ME",
+		"day" : 2
+	},
+	"count" : 285
+},
+{
+	"_id" : {
+		"state" : "ME",
+		"day" : 3
+	},
+	"count" : 316
+},
+{
+	"_id" : {
+		"state" : "ME",
+		"day" : 4
+	},
+	"count" : 313
+},
+{
+	"_id" : {
+		"state" : "ME",
+		"day" : 5
+	},
+	"count" : 347
+},
+{
+	"_id" : {
+		"state" : "ME",
+		"day" : 6
+	},
+	"count" : 412
+},
+{
+	"_id" : {
+		"state" : "ME",
+		"day" : 7
+	},
+	"count" : 202
+},
+{
+	"_id" : {
+		"state" : "MI",
+		"day" : 1
+	},
+	"count" : 4660
+},
+{
+	"_id" : {
+		"state" : "MI",
+		"day" : 2
+	},
+	"count" : 15155
+},
+{
+	"_id" : {
+		"state" : "MI",
+		"day" : 3
+	},
+	"count" : 15956
+},
+{
+	"_id" : {
+		"state" : "MI",
+		"day" : 4
+	},
+	"count" : 16150
+},
+{
+	"_id" : {
+		"state" : "MI",
+		"day" : 5
+	},
+	"count" : 15705
+},
+{
+	"_id" : {
+		"state" : "MI",
+		"day" : 6
+	},
+	"count" : 15786
+},
+{
+	"_id" : {
+		"state" : "MI",
+		"day" : 7
+	},
+	"count" : 5282
+},
+{
+	"_id" : {
+		"state" : "MN",
+		"day" : 1
+	},
+	"count" : 3521
+},
+{
+	"_id" : {
+		"state" : "MN",
+		"day" : 2
+	},
+	"count" : 10887
+},
+{
+	"_id" : {
+		"state" : "MN",
+		"day" : 3
+	},
+	"count" : 11116
+},
+{
+	"_id" : {
+		"state" : "MN",
+		"day" : 4
+	},
+	"count" : 10686
+},
+{
+	"_id" : {
+		"state" : "MN",
+		"day" : 5
+	},
+	"count" : 10737
+},
+{
+	"_id" : {
+		"state" : "MN",
+		"day" : 6
+	},
+	"count" : 10718
+},
+{
+	"_id" : {
+		"state" : "MN",
+		"day" : 7
+	},
+	"count" : 5062
+},
+{
+	"_id" : {
+		"state" : "MO",
+		"day" : 1
+	},
+	"count" : 1519
+},
+{
+	"_id" : {
+		"state" : "MO",
+		"day" : 2
+	},
+	"count" : 5011
+},
+{
+	"_id" : {
+		"state" : "MO",
+		"day" : 3
+	},
+	"count" : 5097
+},
+{
+	"_id" : {
+		"state" : "MO",
+		"day" : 4
+	},
+	"count" : 5401
+},
+{
+	"_id" : {
+		"state" : "MO",
+		"day" : 5
+	},
+	"count" : 5220
+},
+{
+	"_id" : {
+		"state" : "MO",
+		"day" : 6
+	},
+	"count" : 5121
+},
+{
+	"_id" : {
+		"state" : "MO",
+		"day" : 7
+	},
+	"count" : 1643
+},
+{
+	"_id" : {
+		"state" : "MS",
+		"day" : 1
+	},
+	"count" : 115
+},
+{
+	"_id" : {
+		"state" : "MS",
+		"day" : 2
+	},
+	"count" : 1076
+},
+{
+	"_id" : {
+		"state" : "MS",
+		"day" : 3
+	},
+	"count" : 1179
+},
+{
+	"_id" : {
+		"state" : "MS",
+		"day" : 4
+	},
+	"count" : 1131
+},
+{
+	"_id" : {
+		"state" : "MS",
+		"day" : 5
+	},
+	"count" : 1126
+},
+{
+	"_id" : {
+		"state" : "MS",
+		"day" : 6
+	},
+	"count" : 1193
+},
+{
+	"_id" : {
+		"state" : "MS",
+		"day" : 7
+	},
+	"count" : 141
+},
+{
+	"_id" : {
+		"state" : "MT",
+		"day" : 1
+	},
+	"count" : 29
+},
+{
+	"_id" : {
+		"state" : "MT",
+		"day" : 2
+	},
+	"count" : 86
+},
+{
+	"_id" : {
+		"state" : "MT",
+		"day" : 3
+	},
+	"count" : 88
+},
+{
+	"_id" : {
+		"state" : "MT",
+		"day" : 4
+	},
+	"count" : 113
+},
+{
+	"_id" : {
+		"state" : "MT",
+		"day" : 5
+	},
+	"count" : 92
+},
+{
+	"_id" : {
+		"state" : "MT",
+		"day" : 6
+	},
+	"count" : 68
+},
+{
+	"_id" : {
+		"state" : "MT",
+		"day" : 7
+	},
+	"count" : 28
+},
+{
+	"_id" : {
+		"state" : "NC",
+		"day" : 1
+	},
+	"count" : 4006
+},
+{
+	"_id" : {
+		"state" : "NC",
+		"day" : 2
+	},
+	"count" : 25460
+},
+{
+	"_id" : {
+		"state" : "NC",
+		"day" : 3
+	},
+	"count" : 28195
+},
+{
+	"_id" : {
+		"state" : "NC",
+		"day" : 4
+	},
+	"count" : 26744
+},
+{
+	"_id" : {
+		"state" : "NC",
+		"day" : 5
+	},
+	"count" : 25216
+},
+{
+	"_id" : {
+		"state" : "NC",
+		"day" : 6
+	},
+	"count" : 26810
+},
+{
+	"_id" : {
+		"state" : "NC",
+		"day" : 7
+	},
+	"count" : 6029
+},
+{
+	"_id" : {
+		"state" : "ND",
+		"day" : 1
+	},
+	"count" : 3
+},
+{
+	"_id" : {
+		"state" : "ND",
+		"day" : 2
+	},
+	"count" : 2
+},
+{
+	"_id" : {
+		"state" : "ND",
+		"day" : 3
+	},
+	"count" : 12
+},
+{
+	"_id" : {
+		"state" : "ND",
+		"day" : 4
+	},
+	"count" : 5
+},
+{
+	"_id" : {
+		"state" : "ND",
+		"day" : 5
+	},
+	"count" : 12
+},
+{
+	"_id" : {
+		"state" : "ND",
+		"day" : 6
+	},
+	"count" : 7
+},
+{
+	"_id" : {
+		"state" : "ND",
+		"day" : 7
+	},
+	"count" : 2
+},
+{
+	"_id" : {
+		"state" : "NE",
+		"day" : 1
+	},
+	"count" : 547
+},
+{
+	"_id" : {
+		"state" : "NE",
+		"day" : 2
+	},
+	"count" : 4074
+},
+{
+	"_id" : {
+		"state" : "NE",
+		"day" : 3
+	},
+	"count" : 4482
+},
+{
+	"_id" : {
+		"state" : "NE",
+		"day" : 4
+	},
+	"count" : 4410
+},
+{
+	"_id" : {
+		"state" : "NE",
+		"day" : 5
+	},
+	"count" : 4277
+},
+{
+	"_id" : {
+		"state" : "NE",
+		"day" : 6
+	},
+	"count" : 4072
+},
+{
+	"_id" : {
+		"state" : "NE",
+		"day" : 7
+	},
+	"count" : 643
+},
+{
+	"_id" : {
+		"state" : "NH",
+		"day" : 1
+	},
+	"count" : 584
+},
+{
+	"_id" : {
+		"state" : "NH",
+		"day" : 2
+	},
+	"count" : 1233
+},
+{
+	"_id" : {
+		"state" : "NH",
+		"day" : 3
+	},
+	"count" : 1274
+},
+{
+	"_id" : {
+		"state" : "NH",
+		"day" : 4
+	},
+	"count" : 1128
+},
+{
+	"_id" : {
+		"state" : "NH",
+		"day" : 5
+	},
+	"count" : 1116
+},
+{
+	"_id" : {
+		"state" : "NH",
+		"day" : 6
+	},
+	"count" : 1240
+},
+{
+	"_id" : {
+		"state" : "NH",
+		"day" : 7
+	},
+	"count" : 489
+},
+{
+	"_id" : {
+		"state" : "NJ",
+		"day" : 1
+	},
+	"count" : 2528
+},
+{
+	"_id" : {
+		"state" : "NJ",
+		"day" : 2
+	},
+	"count" : 8288
+},
+{
+	"_id" : {
+		"state" : "NJ",
+		"day" : 3
+	},
+	"count" : 9104
+},
+{
+	"_id" : {
+		"state" : "NJ",
+		"day" : 4
+	},
+	"count" : 9138
+},
+{
+	"_id" : {
+		"state" : "NJ",
+		"day" : 5
+	},
+	"count" : 9311
+},
+{
+	"_id" : {
+		"state" : "NJ",
+		"day" : 6
+	},
+	"count" : 8908
+},
+{
+	"_id" : {
+		"state" : "NJ",
+		"day" : 7
+	},
+	"count" : 2665
+},
+{
+	"_id" : {
+		"state" : "NM",
+		"day" : 1
+	},
+	"count" : 216
+},
+{
+	"_id" : {
+		"state" : "NM",
+		"day" : 2
+	},
+	"count" : 774
+},
+{
+	"_id" : {
+		"state" : "NM",
+		"day" : 3
+	},
+	"count" : 876
+},
+{
+	"_id" : {
+		"state" : "NM",
+		"day" : 4
+	},
+	"count" : 953
+},
+{
+	"_id" : {
+		"state" : "NM",
+		"day" : 5
+	},
+	"count" : 951
+},
+{
+	"_id" : {
+		"state" : "NM",
+		"day" : 6
+	},
+	"count" : 1012
+},
+{
+	"_id" : {
+		"state" : "NM",
+		"day" : 7
+	},
+	"count" : 238
+},
+{
+	"_id" : {
+		"state" : "NV",
+		"day" : 1
+	},
+	"count" : 421
+},
+{
+	"_id" : {
+		"state" : "NV",
+		"day" : 2
+	},
+	"count" : 1629
+},
+{
+	"_id" : {
+		"state" : "NV",
+		"day" : 3
+	},
+	"count" : 1730
+},
+{
+	"_id" : {
+		"state" : "NV",
+		"day" : 4
+	},
+	"count" : 1681
+},
+{
+	"_id" : {
+		"state" : "NV",
+		"day" : 5
+	},
+	"count" : 1794
+},
+{
+	"_id" : {
+		"state" : "NV",
+		"day" : 6
+	},
+	"count" : 1927
+},
+{
+	"_id" : {
+		"state" : "NV",
+		"day" : 7
+	},
+	"count" : 342
+},
+{
+	"_id" : {
+		"state" : "NY",
+		"day" : 1
+	},
+	"count" : 8049
+},
+{
+	"_id" : {
+		"state" : "NY",
+		"day" : 2
+	},
+	"count" : 23798
+},
+{
+	"_id" : {
+		"state" : "NY",
+		"day" : 3
+	},
+	"count" : 25450
+},
+{
+	"_id" : {
+		"state" : "NY",
+		"day" : 4
+	},
+	"count" : 24742
+},
+{
+	"_id" : {
+		"state" : "NY",
+		"day" : 5
+	},
+	"count" : 23890
+},
+{
+	"_id" : {
+		"state" : "NY",
+		"day" : 6
+	},
+	"count" : 24415
+},
+{
+	"_id" : {
+		"state" : "NY",
+		"day" : 7
+	},
+	"count" : 7455
+},
+{
+	"_id" : {
+		"state" : "OH",
+		"day" : 1
+	},
+	"count" : 1329
+},
+{
+	"_id" : {
+		"state" : "OH",
+		"day" : 2
+	},
+	"count" : 9939
+},
+{
+	"_id" : {
+		"state" : "OH",
+		"day" : 3
+	},
+	"count" : 11393
+},
+{
+	"_id" : {
+		"state" : "OH",
+		"day" : 4
+	},
+	"count" : 10747
+},
+{
+	"_id" : {
+		"state" : "OH",
+		"day" : 5
+	},
+	"count" : 10430
+},
+{
+	"_id" : {
+		"state" : "OH",
+		"day" : 6
+	},
+	"count" : 10456
+},
+{
+	"_id" : {
+		"state" : "OH",
+		"day" : 7
+	},
+	"count" : 1569
+},
+{
+	"_id" : {
+		"state" : "OK",
+		"day" : 1
+	},
+	"count" : 869
+},
+{
+	"_id" : {
+		"state" : "OK",
+		"day" : 2
+	},
+	"count" : 9437
+},
+{
+	"_id" : {
+		"state" : "OK",
+		"day" : 3
+	},
+	"count" : 9980
+},
+{
+	"_id" : {
+		"state" : "OK",
+		"day" : 4
+	},
+	"count" : 10000
+},
+{
+	"_id" : {
+		"state" : "OK",
+		"day" : 5
+	},
+	"count" : 9677
+},
+{
+	"_id" : {
+		"state" : "OK",
+		"day" : 6
+	},
+	"count" : 10375
+},
+{
+	"_id" : {
+		"state" : "OK",
+		"day" : 7
+	},
+	"count" : 959
+},
+{
+	"_id" : {
+		"state" : "OR",
+		"day" : 1
+	},
+	"count" : 7070
+},
+{
+	"_id" : {
+		"state" : "OR",
+		"day" : 2
+	},
+	"count" : 11420
+},
+{
+	"_id" : {
+		"state" : "OR",
+		"day" : 3
+	},
+	"count" : 11002
+},
+{
+	"_id" : {
+		"state" : "OR",
+		"day" : 4
+	},
+	"count" : 10742
+},
+{
+	"_id" : {
+		"state" : "OR",
+		"day" : 5
+	},
+	"count" : 10774
+},
+{
+	"_id" : {
+		"state" : "OR",
+		"day" : 6
+	},
+	"count" : 12270
+},
+{
+	"_id" : {
+		"state" : "OR",
+		"day" : 7
+	},
+	"count" : 7562
+},
+{
+	"_id" : {
+		"state" : "PA",
+		"day" : 1
+	},
+	"count" : 3836
+},
+{
+	"_id" : {
+		"state" : "PA",
+		"day" : 2
+	},
+	"count" : 15745
+},
+{
+	"_id" : {
+		"state" : "PA",
+		"day" : 3
+	},
+	"count" : 17035
+},
+{
+	"_id" : {
+		"state" : "PA",
+		"day" : 4
+	},
+	"count" : 17014
+},
+{
+	"_id" : {
+		"state" : "PA",
+		"day" : 5
+	},
+	"count" : 16294
+},
+{
+	"_id" : {
+		"state" : "PA",
+		"day" : 6
+	},
+	"count" : 16624
+},
+{
+	"_id" : {
+		"state" : "PA",
+		"day" : 7
+	},
+	"count" : 3847
+},
+{
+	"_id" : {
+		"state" : "RI",
+		"day" : 1
+	},
+	"count" : 453
+},
+{
+	"_id" : {
+		"state" : "RI",
+		"day" : 2
+	},
+	"count" : 1774
+},
+{
+	"_id" : {
+		"state" : "RI",
+		"day" : 3
+	},
+	"count" : 2055
+},
+{
+	"_id" : {
+		"state" : "RI",
+		"day" : 4
+	},
+	"count" : 1878
+},
+{
+	"_id" : {
+		"state" : "RI",
+		"day" : 5
+	},
+	"count" : 1774
+},
+{
+	"_id" : {
+		"state" : "RI",
+		"day" : 6
+	},
+	"count" : 2033
+},
+{
+	"_id" : {
+		"state" : "RI",
+		"day" : 7
+	},
+	"count" : 516
+},
+{
+	"_id" : {
+		"state" : "SC",
+		"day" : 1
+	},
+	"count" : 4679
+},
+{
+	"_id" : {
+		"state" : "SC",
+		"day" : 2
+	},
+	"count" : 26758
+},
+{
+	"_id" : {
+		"state" : "SC",
+		"day" : 3
+	},
+	"count" : 27295
+},
+{
+	"_id" : {
+		"state" : "SC",
+		"day" : 4
+	},
+	"count" : 26738
+},
+{
+	"_id" : {
+		"state" : "SC",
+		"day" : 5
+	},
+	"count" : 26420
+},
+{
+	"_id" : {
+		"state" : "SC",
+		"day" : 6
+	},
+	"count" : 29402
+},
+{
+	"_id" : {
+		"state" : "SC",
+		"day" : 7
+	},
+	"count" : 5397
+},
+{
+	"_id" : {
+		"state" : "SD",
+		"day" : 1
+	},
+	"count" : 5
+},
+{
+	"_id" : {
+		"state" : "SD",
+		"day" : 2
+	},
+	"count" : 11
+},
+{
+	"_id" : {
+		"state" : "SD",
+		"day" : 3
+	},
+	"count" : 10
+},
+{
+	"_id" : {
+		"state" : "SD",
+		"day" : 4
+	},
+	"count" : 16
+},
+{
+	"_id" : {
+		"state" : "SD",
+		"day" : 5
+	},
+	"count" : 10
+},
+{
+	"_id" : {
+		"state" : "SD",
+		"day" : 6
+	},
+	"count" : 6
+},
+{
+	"_id" : {
+		"state" : "SD",
+		"day" : 7
+	},
+	"count" : 2
+},
+{
+	"_id" : {
+		"state" : "TN",
+		"day" : 1
+	},
+	"count" : 2268
+},
+{
+	"_id" : {
+		"state" : "TN",
+		"day" : 2
+	},
+	"count" : 10583
+},
+{
+	"_id" : {
+		"state" : "TN",
+		"day" : 3
+	},
+	"count" : 10801
+},
+{
+	"_id" : {
+		"state" : "TN",
+		"day" : 4
+	},
+	"count" : 10952
+},
+{
+	"_id" : {
+		"state" : "TN",
+		"day" : 5
+	},
+	"count" : 10473
+},
+{
+	"_id" : {
+		"state" : "TN",
+		"day" : 6
+	},
+	"count" : 10877
+},
+{
+	"_id" : {
+		"state" : "TN",
+		"day" : 7
+	},
+	"count" : 2335
+},
+{
+	"_id" : {
+		"state" : "TX",
+		"day" : 1
+	},
+	"count" : 11537
+},
+{
+	"_id" : {
+		"state" : "TX",
+		"day" : 2
+	},
+	"count" : 52535
+},
+{
+	"_id" : {
+		"state" : "TX",
+		"day" : 3
+	},
+	"count" : 55881
+},
+{
+	"_id" : {
+		"state" : "TX",
+		"day" : 4
+	},
+	"count" : 55215
+},
+{
+	"_id" : {
+		"state" : "TX",
+		"day" : 5
+	},
+	"count" : 53429
+},
+{
+	"_id" : {
+		"state" : "TX",
+		"day" : 6
+	},
+	"count" : 55315
+},
+{
+	"_id" : {
+		"state" : "TX",
+		"day" : 7
+	},
+	"count" : 14150
+},
+{
+	"_id" : {
+		"state" : "UT",
+		"day" : 1
+	},
+	"count" : 2705
+},
+{
+	"_id" : {
+		"state" : "UT",
+		"day" : 2
+	},
+	"count" : 5896
+},
+{
+	"_id" : {
+		"state" : "UT",
+		"day" : 3
+	},
+	"count" : 7309
+},
+{
+	"_id" : {
+		"state" : "UT",
+		"day" : 4
+	},
+	"count" : 7405
+},
+{
+	"_id" : {
+		"state" : "UT",
+		"day" : 5
+	},
+	"count" : 7497
+},
+{
+	"_id" : {
+		"state" : "UT",
+		"day" : 6
+	},
+	"count" : 6875
+},
+{
+	"_id" : {
+		"state" : "UT",
+		"day" : 7
+	},
+	"count" : 3698
+},
+{
+	"_id" : {
+		"state" : "VA",
+		"day" : 1
+	},
+	"count" : 3098
+},
+{
+	"_id" : {
+		"state" : "VA",
+		"day" : 2
+	},
+	"count" : 14410
+},
+{
+	"_id" : {
+		"state" : "VA",
+		"day" : 3
+	},
+	"count" : 15930
+},
+{
+	"_id" : {
+		"state" : "VA",
+		"day" : 4
+	},
+	"count" : 14744
+},
+{
+	"_id" : {
+		"state" : "VA",
+		"day" : 5
+	},
+	"count" : 14039
+},
+{
+	"_id" : {
+		"state" : "VA",
+		"day" : 6
+	},
+	"count" : 14633
+},
+{
+	"_id" : {
+		"state" : "VA",
+		"day" : 7
+	},
+	"count" : 3103
+},
+{
+	"_id" : {
+		"state" : "VT",
+		"day" : 1
+	},
+	"count" : 23
+},
+{
+	"_id" : {
+		"state" : "VT",
+		"day" : 2
+	},
+	"count" : 101
+},
+{
+	"_id" : {
+		"state" : "VT",
+		"day" : 3
+	},
+	"count" : 116
+},
+{
+	"_id" : {
+		"state" : "VT",
+		"day" : 4
+	},
+	"count" : 105
+},
+{
+	"_id" : {
+		"state" : "VT",
+		"day" : 5
+	},
+	"count" : 111
+},
+{
+	"_id" : {
+		"state" : "VT",
+		"day" : 6
+	},
+	"count" : 120
+},
+{
+	"_id" : {
+		"state" : "VT",
+		"day" : 7
+	},
+	"count" : 9
+},
+{
+	"_id" : {
+		"state" : "WA",
+		"day" : 1
+	},
+	"count" : 3606
+},
+{
+	"_id" : {
+		"state" : "WA",
+		"day" : 2
+	},
+	"count" : 9898
+},
+{
+	"_id" : {
+		"state" : "WA",
+		"day" : 3
+	},
+	"count" : 10786
+},
+{
+	"_id" : {
+		"state" : "WA",
+		"day" : 4
+	},
+	"count" : 10855
+},
+{
+	"_id" : {
+		"state" : "WA",
+		"day" : 5
+	},
+	"count" : 11141
+},
+{
+	"_id" : {
+		"state" : "WA",
+		"day" : 6
+	},
+	"count" : 10962
+},
+{
+	"_id" : {
+		"state" : "WA",
+		"day" : 7
+	},
+	"count" : 4119
+},
+{
+	"_id" : {
+		"state" : "WI",
+		"day" : 1
+	},
+	"count" : 1028
+},
+{
+	"_id" : {
+		"state" : "WI",
+		"day" : 2
+	},
+	"count" : 3223
+},
+{
+	"_id" : {
+		"state" : "WI",
+		"day" : 3
+	},
+	"count" : 3145
+},
+{
+	"_id" : {
+		"state" : "WI",
+		"day" : 4
+	},
+	"count" : 3124
+},
+{
+	"_id" : {
+		"state" : "WI",
+		"day" : 5
+	},
+	"count" : 3078
+},
+{
+	"_id" : {
+		"state" : "WI",
+		"day" : 6
+	},
+	"count" : 2971
+},
+{
+	"_id" : {
+		"state" : "WI",
+		"day" : 7
+	},
+	"count" : 1011
+},
+{
+	"_id" : {
+		"state" : "WV",
+		"day" : 1
+	},
+	"count" : 207
+},
+{
+	"_id" : {
+		"state" : "WV",
+		"day" : 2
+	},
+	"count" : 321
+},
+{
+	"_id" : {
+		"state" : "WV",
+		"day" : 3
+	},
+	"count" : 380
+},
+{
+	"_id" : {
+		"state" : "WV",
+		"day" : 4
+	},
+	"count" : 334
+},
+{
+	"_id" : {
+		"state" : "WV",
+		"day" : 5
+	},
+	"count" : 436
+},
+{
+	"_id" : {
+		"state" : "WV",
+		"day" : 6
+	},
+	"count" : 444
+},
+{
+	"_id" : {
+		"state" : "WV",
+		"day" : 7
+	},
+	"count" : 152
+},
+{
+	"_id" : {
+		"state" : "WY",
+		"day" : 1
+	},
+	"count" : 91
+},
+{
+	"_id" : {
+		"state" : "WY",
+		"day" : 2
+	},
+	"count" : 78
+},
+{
+	"_id" : {
+		"state" : "WY",
+		"day" : 3
+	},
+	"count" : 65
+},
+{
+	"_id" : {
+		"state" : "WY",
+		"day" : 4
+	},
+	"count" : 69
+},
+{
+	"_id" : {
+		"state" : "WY",
+		"day" : 5
+	},
+	"count" : 88
+},
+{
+	"_id" : {
+		"state" : "WY",
+		"day" : 6
+	},
+	"count" : 69
+},
+{
+	"_id" : {
+		"state" : "WY",
+		"day" : 7
+	},
+	"count" : 32
+},
