@@ -1,0 +1,10 @@
+db.US_Accidents_Dec19.aggregate([
+        {$match: {"State": {$in: ["NC","CA","TX","FL","SC"]}}},
+        {$addFields: { timeOfTheDay: {$cond: { if: { $and: [{$lt: [{$hour: {$toDate: "$Start_Time"}},12]}, {$gte:[{$hour: {$toDate: "$Start_Time"}},6]}]}, then: "Morning", 
+                                       else: { $cond: {if: { $and: [{$gte: [{$hour: {$toDate: "$Start_Time"}},12]}, {$lt:[{$hour: {$toDate: "$Start_Time"}},18]}]}, then: "Afternoon",
+                                       else: { $cond: {if: { $and: [{$gte: [{$hour: {$toDate: "$Start_Time"}},18]}, {$lt:[{$hour: {$toDate: "$Start_Time"}},23]}]}, then: "Evening",
+                                       else: "Night"}
+                                       }}}}}
+        }},
+        {$project: {"_id":1,"State":1,"timeOfTheDay":1}}
+    ])
