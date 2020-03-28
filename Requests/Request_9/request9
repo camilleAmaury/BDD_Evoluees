@@ -1,0 +1,20 @@
+db.US_Accidents_Dec19.aggregate([
+    {$match: {$or: [{"Bump":"True"},{"Crossing":"True"},{"Give_Way":"True"},{"Amenity":"True"},{"Junction":"True"},{"Railway":"True"},{"Roundabout":"True"},{"Stop":"True"},{"Station":"True"},{"Traffic_Signal":"True"},{"Traffic_Calming":"True"},{"No_Exit":"True"}]}},
+    {$project: {"_id":1,
+                "State":1,
+                "Severity": 1,
+                "Bump":1,
+                "Crossing":1,
+                "Give_Way":1,
+                "Amenity":1,
+                "Junction":1,
+                "Railway":1,
+                "Roundabout":1,
+                "Stop":1,
+                "Station":1,
+                "Traffic_Signal":1,
+                "Traffic_Calming":1,
+                "No_Exit":1
+    }},
+    {$sort: {"Severity": 1}}
+], {"allowDiskUse" : true});
