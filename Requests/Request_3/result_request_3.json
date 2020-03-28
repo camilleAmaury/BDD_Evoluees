@@ -1,0 +1,484 @@
+{
+	"_id" : "Clear",
+	"count" : 808171
+},
+{
+	"_id" : "Mostly Cloudy",
+	"count" : 412528
+},
+{
+	"_id" : "Overcast",
+	"count" : 382480
+},
+{
+	"_id" : "Fair",
+	"count" : 335289
+},
+{
+	"_id" : "Partly Cloudy",
+	"count" : 295439
+},
+{
+	"_id" : "Scattered Clouds",
+	"count" : 204662
+},
+{
+	"_id" : "Light Rain",
+	"count" : 141073
+},
+{
+	"_id" : "Cloudy",
+	"count" : 115496
+},
+{
+	"_id" : "",
+	"count" : 65932
+},
+{
+	"_id" : "Light Snow",
+	"count" : 42123
+},
+{
+	"_id" : "Haze",
+	"count" : 34315
+},
+{
+	"_id" : "Rain",
+	"count" : 32826
+},
+{
+	"_id" : "Fog",
+	"count" : 22138
+},
+{
+	"_id" : "Heavy Rain",
+	"count" : 12064
+},
+{
+	"_id" : "Light Drizzle",
+	"count" : 10277
+},
+{
+	"_id" : "Light Thunderstorms and Rain",
+	"count" : 4928
+},
+{
+	"_id" : "Snow",
+	"count" : 4796
+},
+{
+	"_id" : "Thunderstorm",
+	"count" : 4438
+},
+{
+	"_id" : "Fair / Windy",
+	"count" : 3759
+},
+{
+	"_id" : "Smoke",
+	"count" : 3602
+},
+{
+	"_id" : "Heavy Thunderstorms and Rain",
+	"count" : 2483
+},
+{
+	"_id" : "Patches of Fog",
+	"count" : 2386
+},
+{
+	"_id" : "Thunderstorms and Rain",
+	"count" : 2215
+},
+{
+	"_id" : "Mist",
+	"count" : 2204
+},
+{
+	"_id" : "Thunder in the Vicinity",
+	"count" : 2177
+},
+{
+	"_id" : "T-Storm",
+	"count" : 2161
+},
+{
+	"_id" : "Light Freezing Rain",
+	"count" : 2132
+},
+{
+	"_id" : "Cloudy / Windy",
+	"count" : 2097
+},
+{
+	"_id" : "Drizzle",
+	"count" : 2044
+},
+{
+	"_id" : "Mostly Cloudy / Windy",
+	"count" : 1987
+},
+{
+	"_id" : "Light Rain with Thunder",
+	"count" : 1933
+},
+{
+	"_id" : "Thunder",
+	"count" : 1661
+},
+{
+	"_id" : "Partly Cloudy / Windy",
+	"count" : 1316
+},
+{
+	"_id" : "Heavy T-Storm",
+	"count" : 1263
+},
+{
+	"_id" : "Heavy Snow",
+	"count" : 1249
+},
+{
+	"_id" : "Shallow Fog",
+	"count" : 1135
+},
+{
+	"_id" : "Light Rain / Windy",
+	"count" : 1045
+},
+{
+	"_id" : "Light Freezing Fog",
+	"count" : 1001
+},
+{
+	"_id" : "Wintry Mix",
+	"count" : 799
+},
+{
+	"_id" : "Light Freezing Drizzle",
+	"count" : 798
+},
+{
+	"_id" : "Light Snow / Windy",
+	"count" : 453
+},
+{
+	"_id" : "Rain / Windy",
+	"count" : 303
+},
+{
+	"_id" : "Blowing Snow",
+	"count" : 268
+},
+{
+	"_id" : "Showers in the Vicinity",
+	"count" : 267
+},
+{
+	"_id" : "Light Ice Pellets",
+	"count" : 262
+},
+{
+	"_id" : "Heavy Drizzle",
+	"count" : 258
+},
+{
+	"_id" : "N/A Precipitation",
+	"count" : 201
+},
+{
+	"_id" : "Heavy Rain / Windy",
+	"count" : 158
+},
+{
+	"_id" : "Light Rain Showers",
+	"count" : 157
+},
+{
+	"_id" : "Heavy T-Storm / Windy",
+	"count" : 146
+},
+{
+	"_id" : "Widespread Dust",
+	"count" : 129
+},
+{
+	"_id" : "T-Storm / Windy",
+	"count" : 128
+},
+{
+	"_id" : "Rain Showers",
+	"count" : 123
+},
+{
+	"_id" : "Ice Pellets",
+	"count" : 101
+},
+{
+	"_id" : "Thunder / Windy",
+	"count" : 80
+},
+{
+	"_id" : "Haze / Windy",
+	"count" : 66
+},
+{
+	"_id" : "Drizzle and Fog",
+	"count" : 65
+},
+{
+	"_id" : "Blowing Dust / Windy",
+	"count" : 64
+},
+{
+	"_id" : "Fog / Windy",
+	"count" : 59
+},
+{
+	"_id" : "Light Rain Shower",
+	"count" : 55
+},
+{
+	"_id" : "Snow / Windy",
+	"count" : 50
+},
+{
+	"_id" : "Blowing Dust",
+	"count" : 44
+},
+{
+	"_id" : "Small Hail",
+	"count" : 30
+},
+{
+	"_id" : "Light Drizzle / Windy",
+	"count" : 28
+},
+{
+	"_id" : "Sand / Dust Whirlwinds",
+	"count" : 27
+},
+{
+	"_id" : "Squalls",
+	"count" : 26
+},
+{
+	"_id" : "Light Snow Showers",
+	"count" : 24
+},
+{
+	"_id" : "Heavy Snow / Windy",
+	"count" : 23
+},
+{
+	"_id" : "Light Thunderstorms and Snow",
+	"count" : 22
+},
+{
+	"_id" : "Volcanic Ash",
+	"count" : 22
+},
+{
+	"_id" : "Wintry Mix / Windy",
+	"count" : 20
+},
+{
+	"_id" : "Sand",
+	"count" : 19
+},
+{
+	"_id" : "Funnel Cloud",
+	"count" : 19
+},
+{
+	"_id" : "Freezing Rain",
+	"count" : 17
+},
+{
+	"_id" : "Blowing Snow / Windy",
+	"count" : 10
+},
+{
+	"_id" : "Partial Fog",
+	"count" : 10
+},
+{
+	"_id" : "Light Haze",
+	"count" : 10
+},
+{
+	"_id" : "Light Snow with Thunder",
+	"count" : 9
+},
+{
+	"_id" : "Light Snow and Sleet",
+	"count" : 9
+},
+{
+	"_id" : "Snow and Sleet / Windy",
+	"count" : 9
+},
+{
+	"_id" : "Snow and Sleet",
+	"count" : 9
+},
+{
+	"_id" : "Heavy Thunderstorms with Small Hail",
+	"count" : 7
+},
+{
+	"_id" : "Heavy Rain Showers",
+	"count" : 7
+},
+{
+	"_id" : "Smoke / Windy",
+	"count" : 7
+},
+{
+	"_id" : "Heavy Sleet",
+	"count" : 6
+},
+{
+	"_id" : "Heavy Snow with Thunder",
+	"count" : 6
+},
+{
+	"_id" : "Rain Shower",
+	"count" : 6
+},
+{
+	"_id" : "Light Freezing Rain / Windy",
+	"count" : 6
+},
+{
+	"_id" : "Light Snow Grains",
+	"count" : 6
+},
+{
+	"_id" : "Low Drifting Snow",
+	"count" : 5
+},
+{
+	"_id" : "Squalls / Windy",
+	"count" : 5
+},
+{
+	"_id" : "Heavy Thunderstorms and Snow",
+	"count" : 5
+},
+{
+	"_id" : "Drizzle / Windy",
+	"count" : 4
+},
+{
+	"_id" : "Light Sleet",
+	"count" : 4
+},
+{
+	"_id" : "Heavy Blowing Snow",
+	"count" : 4
+},
+{
+	"_id" : "Light Fog",
+	"count" : 4
+},
+{
+	"_id" : "Snow Grains",
+	"count" : 4
+},
+{
+	"_id" : "Heavy Ice Pellets",
+	"count" : 4
+},
+{
+	"_id" : "Light Snow and Sleet / Windy",
+	"count" : 4
+},
+{
+	"_id" : "Thunderstorms and Snow",
+	"count" : 3
+},
+{
+	"_id" : "Tornado",
+	"count" : 3
+},
+{
+	"_id" : "Light Hail",
+	"count" : 3
+},
+{
+	"_id" : "Light Blowing Snow",
+	"count" : 3
+},
+{
+	"_id" : "Sleet",
+	"count" : 3
+},
+{
+	"_id" : "Light Thunderstorm",
+	"count" : 3
+},
+{
+	"_id" : "Heavy Freezing Drizzle",
+	"count" : 2
+},
+{
+	"_id" : "Snow Showers",
+	"count" : 2
+},
+{
+	"_id" : "Hail",
+	"count" : 2
+},
+{
+	"_id" : "Sand / Dust Whirlwinds / Windy",
+	"count" : 2
+},
+{
+	"_id" : "Heavy Freezing Rain",
+	"count" : 2
+},
+{
+	"_id" : "Snow and Thunder",
+	"count" : 1
+},
+{
+	"_id" : "Heavy Smoke",
+	"count" : 1
+},
+{
+	"_id" : "Dust Whirls",
+	"count" : 1
+},
+{
+	"_id" : "Blowing Sand",
+	"count" : 1
+},
+{
+	"_id" : "Thunder and Hail / Windy",
+	"count" : 1
+},
+{
+	"_id" : "Widespread Dust / Windy",
+	"count" : 1
+},
+{
+	"_id" : "Freezing Rain / Windy",
+	"count" : 1
+},
+{
+	"_id" : "Light Rain Shower / Windy",
+	"count" : 1
+},
+{
+	"_id" : "Thunder / Wintry Mix / Windy",
+	"count" : 1
+},
+{
+	"_id" : "Partial Fog / Windy",
+	"count" : 1
+},
+{
+	"_id" : "Light Snow Shower",
+	"count" : 1
+},
