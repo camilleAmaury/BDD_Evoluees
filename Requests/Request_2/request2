@@ -1,0 +1,8 @@
+ db.getCollection("US_Accidents_Dec19").aggregate([{$match : {$and: [
+                                                                    {"State": "NY"},
+                                                                    {"Wind_Speed(mph)":{"$gte": 9}},
+                                                                    {"Wind_Direction":"South"}
+                                                                    ]
+                                                              }
+                                                    }
+]);
