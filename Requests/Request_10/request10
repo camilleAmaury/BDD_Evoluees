@@ -1,0 +1,8 @@
+db.US_Accidents_Dec19.aggregate([
+    {$project:
+        {day: {$dayOfWeek: {$toDate: "$Start_Time"}}, "State":1}
+    },
+    {$group: { _id: {"state": "$State", "day": "$day"}, count: {$sum: 1}}},
+    {$sort: {"_id": 1}}
+]);
+    
