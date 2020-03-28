@@ -1,0 +1,10 @@
+db.US_Accidents_Dec19.aggregate([
+    {$match: {}},
+    {$project: {"duree":{ $divide: [{$subtract: [{$toDate: "$End_Time"},{$toDate: "$Start_Time"}]},60000]}, 
+                "_id":0,
+                "Severity": 1,
+                "Start_Time": 1,
+                "End_Time": 1
+    }},
+    {$sort: {"Severity": 1}}
+], {"allowDiskUse" : true})
