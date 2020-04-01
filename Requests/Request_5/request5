@@ -1,0 +1,11 @@
+db.US_Accidents_Dec19.aggregate([
+    {$match:{"City":{$ne:""}}},
+    {$group: { _id: {"city":"$City","Street":"$Street"},
+                accidents:{$sum: 1},
+                city: {$first: "$City"},
+                street: {$first: "$Street"},
+                avgDurationInMilliSeconds: {$avg:{$subtract: [{$toDate: "$End_Time"},{$toDate:"$Start_Time"}]}}
+    }},
+    {$project: {duration: {$divide: ["$avgDurationInMilliSeconds",60000 ]}, "accidents": 1,"city": 1,"street": 1}},
+    {$sort: {accidents:-1}},
+    ], {"allowDiskUse": true});
