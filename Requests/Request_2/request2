@@ -1,8 +1,9 @@
- db.getCollection("US_Accidents_Dec19").aggregate([{$match : {$and: [
+db.getCollection("US_Accidents_Dec19").aggregate([{$match : {$and: [
                                                                     {"State": "NY"},
                                                                     {"Wind_Speed(mph)":{"$gte": 9}},
                                                                     {"Wind_Direction":"South"}
                                                                     ]
                                                               }
-                                                    }
+                                                    },
+                                                    {$group: { _id: "$City", distance: {$sum: "$Distance(mi)"}
 ]);
