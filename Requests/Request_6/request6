@@ -1,0 +1,10 @@
+db.US_Accidents_Dec19.aggregate([
+    {$match:{"City":{$ne:""}}},
+    {$group: { _id: "$City",
+                accidents:{$sum: 1},
+                city: {$first: "$City"},
+                severity: {$avg: "$Severity"}
+    }},
+    {$project: { "accidents": 1,"city": 1,"severity": 1}},
+    {$sort: {accidents:-1}},
+    ], {"allowDiskUse": true});
