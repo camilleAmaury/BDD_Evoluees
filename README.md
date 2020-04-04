@@ -51,7 +51,7 @@ We provide a way to reproduce the local environnement that we have used in this 
 
 First you need to install the last version of [MongoDB](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials), by the time we installed it the version was 4.2.3
 
-Then, we decided to use a GUI interface which simplifies the use of MongoDB. For this purpose we chose [NoSQLBooster] (https://nosqlbooster.com/downloads)and [Studio 3T](https://studio3t.com/download/) in order to be at ease with the two environments. The version was : 2020.3
+Then, we decided to use a GUI interface which simplifies the use of MongoDB. For this purpose we chose [NoSQLBooster](https://nosqlbooster.com/downloads) and [Studio 3T](https://studio3t.com/download/) in order to be at ease with the two environments. The version was : 2020.3
 
 Next, follow the NoSQLstudio3T tutorial in order to link it with your local mongodb database server. 
 
