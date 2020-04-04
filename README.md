@@ -41,26 +41,26 @@
 
 This section should list any major tools we used in order to build this project
 * [Mongo DB](https://www.mongodb.com/fr)
-* [Python 3](https://www.python.org/)
-* [Jupyter](https://jupyter.org/)
+* [PowerBI Desktop](https://powerbi.microsoft.com/fr-fr/desktop/)
+* [NoSQLBooster](https://nosqlbooster.com/)
 * [Studio 3T](https://studio3t.com/)
 
 ### Installation
 
 We provide a way to reproduce the local environnement that we have used in this project :
 
-Firstly you need to install the last version of [MongoDB](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials), by the time we installed it the version was 4.2.3
+First you need to install the last version of [MongoDB](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials), by the time we installed it the version was 4.2.3
 
-Then, we decided to use a GUI interface which simplify the use of MongoDB. For this purpose we choose [Studio 3T](https://studio3t.com/download/). The version was : 2020.3
+Then, we decided to use a GUI interface which simplifies the use of MongoDB. For this purpose we chose [NoSQLBooster] (https://nosqlbooster.com/downloads)and [Studio 3T](https://studio3t.com/download/) in order to be at ease with the two environments. The version was : 2020.3
 
-Nextly, follow the studio3T tutorial in order to link it with your local mongodb database server. 
+Next, follow the NoSQLstudio3T tutorial in order to link it with your local mongodb database server. 
 
 When it is done, you can now download the [dataset](https://www.kaggle.com/sobhanmoosavi/us-accidents) which has a little less than 3 million records of US traffic accident between 2016 and 2019.
-Download it as a CSV file, and then open a new collection in Studio3T using the "import collection" right click option and then select CSV file.
+Download it as a CSV file, and then open a new collection in Studio3T using the "import collection" right click option and then select CSV file. In that same way you can also download and open the dataset in NoSQLBooster.
 
-Your environnement is ready to reproduce our requests.
+Your environnements are ready to reproduce our requests.
 
-(Note that, in our report we used Jupyter-Anaconda environnement and python 3 to provide some quick exploration results about our data).
+(Note that, in our report we used Power BI Desktop environement to provide a representation for our request's results).
 
 
 <!-- LICENSE -->
