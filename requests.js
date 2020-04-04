@@ -12,21 +12,6 @@ Results :
 req1 = [['SD', 3], ['ND', 7], ['MT', 7], ['ME', 35], ['ID', 54], ['WY', 108], ['WV', 147], ['VT', 167], ['AR', 232], ['DC', 1932], ['DE', 1981], ['NH', 2074], ['KS', 2092], ['NM', 2201], ['MS', 2459], ['NV', 3710], ['RI', 4979], ['IA', 5525], ['WI', 6999], ['OR', 8699], ['KY', 9154], ['CT', 10038], ['IN', 10580], ['MO', 11859], ['UT', 12034], ['NE', 15372], ['CO', 15903], ['MA', 20722], ['NJ', 22516], ['MD', 22531], ['AL', 25092], ['LA', 25701], ['MN', 25823], ['WA', 27869], ['OK', 28537], ['TN', 29216], ['OH', 30371], ['AZ', 30514], ['IL', 38891], ['VA', 40770], ['GA', 45583], ['MI', 48721], ['PA', 58596], ['NC', 64248], ['NY', 76196], ['SC', 82325], ['FL', 122282], ['TX', 184453], ['CA', 327692]]
 */
 
-/* ################################################ Request 2 ################################################ */
-
-use admin;
-
-use admin;
-var res = db.getCollection("US_Accidents_Dec19").aggregate([{ $match : { $and : [{ "Wind_Speed" : {$ne : null} }, { "Wind_Direction" : {$ne : null}}]}},
-{$group:{_id: "$Wind_Direction", count: { $sum:1}, avg: { $avg: {$convert: { input: "$Wind_Speed", to: "double"}}}}},{$sort:{'count':-1}}
-]);
-var resultat = "req2 = [";
-keys = Object.keys(res["_batch"]);
-for(var i = 0; i < keys.length; i++){
-    resultat += "['" + res["_batch"][keys[i]]["_id"] + "', " + res["_batch"][keys[i]]["count"] + "', " + res["_batch"][keys[i]]["avg"] + "]" + ((i != keys.length - 1) ? ", " : "]");
-}
-print(resultat);
-
 /* ################################################ Request 3 ################################################ */
 use admin;
 var res = db.getCollection("US_Accidents_Dec19").aggregate([{$group: {_id: "$Weather_Condition", count: { $sum: 1}}},{ $sort:{'count':-1}}]);
@@ -91,40 +76,11 @@ Results :
 req4 = [['Temperature', -0.0, 99.9, [['0, 24']['24, 48']['48, 72']['72, 99.9']], [36786, 268534, 646308, 531243]], ['Wind_Chill', -0.1, 99.0, [['-0.1, 23.9']['23.9, 47.9']['47.9, 71.9']['71.9, 99']], [66532, 186789, 211573, 223010]], ['Humidity', 1.0, 99.0, [['1, 25']['25, 49']['49, 73']['73, 99']], [113163, 278681, 491903, 597656]], ['Pressure', 0.0, 9.9, [['0, 2']['2, 4']['4, 6']['6, 9.9']], [8, 1489379, 0, 2]], ['Visibility', 0.0, 90.0, [['0, 22']['22, 44']['44, 66']['66, 90']], [1250753, 49377, 57558, 121790]], ['Wind_Speed', 0.0, 97.8, [['0, 24']['24, 48']['48, 72']['72, 97.8']], [485430, 249732, 341410, 232243]], ['Precipitation', 0.0, 9.99, [['0, 2']['2, 4']['4, 6']['6, 9.99']], [622073, 32, 1, 161]]]
 */
 
-/* ################################################ Request 5 ################################################ */
-use admin;
-var res = db.getCollection("US_Accidents_Dec19").aggregate([{$group: { _id: "$City", countA: { $sum: 1}}},{$sort:{'countA':-1}}]);
-keys = Object.keys(res["_batch"]);
-var resultat = "req2 = [";
-for(var i = 0; i < keys.length; i++){
-    resultat += "['" + res["_batch"][keys[i]]["_id"] + "', ";
-    var res2 = db.getCollection("US_Accidents_Dec19").aggregate([{ $match : { "City" : {$eq : res["_batch"][keys[i]]["_id"]}}}, {$group: { _id: "$Astronomical_Twilight", countA: { $sum: 1}}}]);
-    keys2 = Object.keys(res2["_batch"]);
-    for(var j = 0; j < keys2.length; j++){
-        resultat += "['" + res2["_batch"][keys2[j]]["_id"] + "', " + res2["_batch"][keys2[j]]["countA"] + "]" + ((j != keys2.length - 1) ? ", " : "]");
-    }
-    resultat += "]" + ((i != keys.length - 1) ? ", " : "]");
-}
-print(resultat);
 
-/* ################################################ Request 7 ################################################ */
-var res = db.getCollection("US_Accidents_Dec19").find({}, {"Start_Time":1});
-var c = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-for(var i = 0; i < res.count(); i++){
-    var hour = tojson(res[i]['Start_Time']).split(':')[0].split(' ')[1];
-    if(/^\d+$/.test(hour)){
-        if(hour.split()[0] == '0'){
-             hour = hour.split()[1];
-        }
-        c[parseInt(hour)] = c[parseInt(hour)]+1;
-    }
-}
-print("req7 = ["+c+"]");
-
-/* ################################################ Request 8 ################################################ */
+/* ################################################ Request 9 ################################################ */
 use admin;
 var properties = ["$Roundabout", "$Bump", "$Crossing", "$Give_Way", "$Junction", "$No_Exit", "$Railway", "$Station", "$Stop", "$Traffic_Calming", "$Traffic_Signal", "$Turning_Loop"];
-resultat = "req8 = [";
+resultat = "req9 = [";
 for(var j = 0; j < properties.length; j++){
     resultat += "['" +  properties[j].replace("$", "") + "', [";
     var res = db.getCollection("US_Accidents_Dec19").aggregate([{$group:{_id:  properties[j], count: { $sum: 1}}},{$sort:{'count':-1}}]);
@@ -138,5 +94,5 @@ print(resultat);
 
 /*
 Results :
-req8 = [['Roundabout', [['True', 117], ['False', 1506883]]], ['Bump', [['True', 264], ['False', 1506736]]], ['Crossing', [['True', 120120], ['False', 1386880]]], ['Give_Way', [['True', 4297], ['False', 1502703]]], ['Junction', [['True', 76147], ['False', 1430853]]], ['No_Exit', [['True', 1758], ['False', 1505242]]], ['Railway', [['True', 13503], ['False', 1493497]]], ['Station', [['True', 32527], ['False', 1474473]]], ['Stop', [['True', 23174], ['False', 1483826]]], ['Traffic_Calming', [['True', 647], ['False', 1506353]]], ['Traffic_Signal', [['True', 295166], ['False', 1211834]]], ['Turning_Loop', [['False', 1507000]]]]
+req9 = [['Roundabout', [['True', 117], ['False', 1506883]]], ['Bump', [['True', 264], ['False', 1506736]]], ['Crossing', [['True', 120120], ['False', 1386880]]], ['Give_Way', [['True', 4297], ['False', 1502703]]], ['Junction', [['True', 76147], ['False', 1430853]]], ['No_Exit', [['True', 1758], ['False', 1505242]]], ['Railway', [['True', 13503], ['False', 1493497]]], ['Station', [['True', 32527], ['False', 1474473]]], ['Stop', [['True', 23174], ['False', 1483826]]], ['Traffic_Calming', [['True', 647], ['False', 1506353]]], ['Traffic_Signal', [['True', 295166], ['False', 1211834]]], ['Turning_Loop', [['False', 1507000]]]]
 */
